@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tale - SEO Digital Agency</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: white;
+        }
+
+        /* Top Bar */
+        .top-bar {
+            background: #eee;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 5px 30px;
+            font-size: 14px;
+            color: #555;
+        }
+
+        .top-bar span {
+            margin-right: 20px;
+        }
+
+        .social-icons {
+            display: flex;
+            gap: 10px;
+        }
+
+        /* Header */
+        header {
+            background: linear-gradient(90deg, #7f00ff, #e100ff);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 30px;
+            color: white;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .logo img {
+            height: 30px;
+            margin-right: 10px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        /* Hero Section */
+        .hero {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 50px 30px;
+            background: #f9f9f9;
+            flex-wrap: wrap;
+        }
+
+        .hero-text {
+            max-width: 500px;
+            background: white;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+
+        .hero-text h2 {
+            color: #7f00ff;
+            font-size: 14px;
+            margin-bottom: 10px;
+        }
+
+        .hero-text h1 {
+            font-size: 36px;
+            margin: 0;
+            line-height: 1.3;
+        }
+
+        .hero-text h1 span {
+            color: #e100ff;
+        }
+
+        .hero-text p {
+            margin: 20px 0;
+            color: #555;
+        }
+
+        .buttons {
+            display: flex;
+            gap: 15px;
+            align-items: center;
+        }
+
+        .buttons a {
+            text-decoration: none;
+            padding: 10px 20px;
+            border-radius: 25px;
+            font-weight: bold;
+            color: white;
+            background: #7f00ff;
+            transition: background 0.3s;
+        }
+
+        .buttons a.secondary {
+            background: #e100ff;
+        }
+
+        .buttons a:hover {
+            background: #5e00c4;
+        }
+
+        .buttons a.secondary:hover {
+            background: #b100cc;
+        }
+
+        .hero-image {
+            width: 500px;
+            height: 400px;
+            background-image:url(images/banner-right.png);
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+
+        @media (max-width: 768px) {
+            .hero {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .hero-image {
+                width: 100%;
+                height: 300px;
+                margin-top: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="top-bar">
+        <div>
+            <span>📞 010-020-0340</span>
+            <span>✉️ info@company.com</span>
+            <span>📍 Sunny Isles Beach, FL 33160, USA</span>
+        </div>
+        <div class="social-icons">
+            <span>🌐</span>
+            <span>🌐</span>
+            <span>🌐</span>
+            <span>🌐</span>
+        </div>
+    </div>
+
+    <header>
+        <div class="logo">
+            <img src="https://via.placeholder.com/30x30?text=T" alt="Logo">
+            TALE
+        </div>
+        <nav>
+            <a href="#">HOME</a>
+            <a href="#">SERVICES</a>
+            <a href="#">PROJECTS</a>
+            <a href="#">PAGES</a>
+            <a href="#">INFOS</a>
+            <a href="#">CONTACT</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-image"></div>
+        <div class="hero-text">
+            <h2>SEO DIGITAL AGENCY</h2>
+            <h1>Dive Into The SEO World <span>With Tale</span></h1>
+            <p>
+                Tale is the best SEO agency website template using Bootstrap v5.2.2 CSS for your company.
+                It is a free download provided by TemplateMo. There are 3 HTML pages,
+                <a href="#">Home</a>, <a href="#">About</a>, and <a href="#">FAQ</a>.
+            </p>
+            <div class="buttons">
+                <a href="#">Discover More</a>
+                <a href="#" class="secondary">Check Our FAQs</a>
+            </div>
+        </div>
+        <div class="hero-image"></div>
+    </section>
+
+</body>
+</html>

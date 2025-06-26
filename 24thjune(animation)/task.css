@@ -42,3 +42,28 @@
                 transform:rotate(360deg);
             }
         }
+
+        .head{
+            padding: 1rem; 
+        animation-name: slide;
+        animation-duration: 3s;
+        animation-iteration-count: 1;
+        }
+        .task3{
+         width:120%;
+        padding: 1rem;
+        color: white;
+        background-color: blueviolet;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        }
+        @keyframes slide{
+            from{
+                opacity: 0;
+            }
+            to{
+                opacity: 1;
+                padding-left: 70%;
+            }
+        }
