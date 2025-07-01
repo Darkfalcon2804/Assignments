@@ -3,6 +3,10 @@
             padding: 0;
             box-sizing: border-box;
         }
+        body{
+            width: 100vw;
+            height: 100vh;
+        }
     .navone{
             width:100vw;
             height:50px;
@@ -269,4 +273,227 @@
           width: 100%;
           font-weight:500;
        }
+        }
+
+
+           .display3{
+           
+            width: 100vw;
+            height:60vh;
+            display: flex;
+            flex-direction: column;
+            position: relative;
+         
+        }
+       .display3Main {
+ width:70vw;
+ height:10vh;
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   margin-left:200px;
+   position: relative;
+       }
+      .main3_heading{
+        width: 90%;
+        padding-bottom: 20px;
+        font-size: 25px;
+       }
+       .D{
+        border-bottom: 3px solid rgb(82, 9, 116);
+    padding-bottom: 10px;
+       }
+       .w{
+        color:rgb(96, 27, 128);
+       }
+       .pro{
+        color:  #e423ef;
+       }
+       .text3_heading{
+        width: 90%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+       }
+       .text3{
+        color:gray;
+        font-size:20px;
+    }
+    .button_display3{
+        width:120px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 10px;
+    }
+    .Lsidebutton{
+        width:45px;
+        height: 35px;
+        background-color:rgb(137, 83, 162) ;
+        border-radius: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+    }
+    .Rsidebutton{
+        width:45px;
+        height: 35px;
+        background-color:rgb(137, 83, 162) ;
+        border-radius: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+    }
+    .display3Card{
+        width: 100vw;
+        height:80%;
+     display: flex;
+     justify-content: space-around;
+     margin-top: 55px;
+     
+    }
+    .projectCard{
+        width: 400px;
+        height:380px;
+        border-radius: 40px;
+        box-shadow: 2px 2px 4px gray;
+    }
+    .disCardImg{
+        width:100%;
+        height:60%;
+    }
+    .disCardImg img{
+           border-top-right-radius: 30px;
+                    border-top-left-radius: 30px;
+                    width: 100%;
+                    height: 100%;
+    }
+    .disCardtext{
+         padding-top: 40px;
+                display: flex;
+                justify-content: space-between;
+                margin-bottom: 1rem;
+                i{
+                      width: 3rem;
+                    height:3rem;
+                    border-radius: 50%;
+                    box-shadow: 1px 1px 2px gray;
+                margin-right: 15px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    background-color: white;
+                    color: #b414db;
+                }
+                h1{
+                    width:300px;
+                    margin-left: 10px;
+                }
+    }
+
+    
+        .display4{
+            width:100vw;
+            height:95vh;
+            background-image:url(images/infos-bg.jpg);
+            margin-top: 0px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .display4Content{
+            position: absolute;
+               width: 1200px;
+            height: 750px;
+            border-radius: 30px;
+             display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: row;
+        }
+        .Picdisplay4{
+          width: 500px;
+          height: 100%;
+
+        }
+        .Picdisplay4 img{
+           width:100%;
+           height:100%;
+            border-top-left-radius: 30px;
+           border-bottom-left-radius: 30px;
+        }
+        .Formdisplay4{
+                    width:700px;
+                    height: 100%;  
+           background-color: white;
+           border-top-right-radius: 30px;
+           border-bottom-right-radius: 30px;
+           display: flex;
+           justify-content:start;
+           align-items:start;
+           flex-direction: column;
+           padding-left: 120px;
+           padding-bottom: 45px;
+        }
+        .FormHeading{
+            width:70%;
+            font-size:25px;
+            margin-top:55px;
+             
+        }
+        .FormAbout{
+            color:#4b00ff;
+        }
+        .FormOffer{
+            color: #e729f1;
+        }
+        .Formborder{
+            width:100px;
+            border-bottom: 3px solid rgb(82, 9, 116) ;
+            padding-top: 20px;
+        }
+        .Formtext1{
+            width:70%;
+            color:gray;
+            font-size: 20px;
+            margin-top:20px;
+        }
+        .Formtext1 a{
+            text-decoration: none;
+        }
+        .Formprogress{
+            width: 80%;
+            height:45%;
+            gap:35px;
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            padding-left: 35px;
+            
+        }
+        .FormMarketing{
+            font-size: 20px;
+            display: flex;
+            align-items:center ;
+            justify-content: space-between;
+        }
+        .FormMarketing p{
+            color: #4b00ff;
+            font-weight: bold;
+        }
+       progress{
+        margin-top: 0px;
+            width:500px ;
+            accent-color: #4b00ff;
+        }
+        .Formtext2{
+            width:80%;
+            height:15%;
+            color: gray;
+            font-size:20px;
+            margin-top:15px;
+            
         }
