@@ -56,3 +56,60 @@ console.log("The array getting falt:",flattenArray([[1, 2], [3, 4], [5]]));
 
 
 console.log("Third Question:Sum of an even number");
+function sumEven(arr){
+  let sum=0;
+  for(let i of arr){
+    if(i%2===0){
+      sum+=i;
+    }
+  }
+  return sum;
+}
+let o=parseInt(prompt("Enter the size of array:"));
+let arr2=[];
+  for(let i=0;i<o;i++){
+    let element=parseInt(prompt(' '));
+    arr2.push(element);
+  }
+  console.log("The sum of even numbers in array is:",sumEven(arr2));
+
+console.log("Fourth Queestion:Find Max and Min in array:");
+function findMaxMin(arr){
+  let max=arr[0];
+  let min=arr[0];
+  for(let n of arr){
+    if(n>max){
+      max=n;
+    }
+    if(n<min){
+      min=n;
+    }
+  }
+  console.log("The max of array:",max);
+  console.log("The min of array:",min);
+}
+let u=parseInt(prompt("Enter the size of array:"));
+let arr3=[];
+for(let i=0;i<u;i++){
+  let elementss=parseInt(prompt(''));
+    arr3.push(elementss);
+}
+findMaxMin(arr3);
+
+
+
+  console.log("Fifth Question:Group array elements");
+  function groupByType(arr){
+    let b=[];
+    for(let i of arr){
+    if(b.hasOwnProperty(typeof i)){
+      b[typeof i].push(i);
+    }
+    else {
+      b[typeof i]=[i];
+    }
+  }
+  return b;
+}
+let mixedArray = [1, "hello", true, 42, "world", false];
+console.log(groupByType(mixedArray));

@@ -54,7 +54,7 @@ function countVowels(str){
     let count=0;
     str=str.toLowerCase();
  for(let i=0;i<str.length;i++){
-    if(str[i]==='a'||str[i]==='e'||str[i]==='o'||str[i]==='u'){
+    if(str[i]==='a'||str[i]==='e'||str[i]==='o'||str[i]==='u'||str[i]==='i'){
         count++;
     }
  }
@@ -99,4 +99,18 @@ function charFrequency(str){
 }
 let name3=prompt("Enter the String:");
 console.log(charFrequency(name3));
-
+//////better way of doing fifth question
+let str='aabbbc';
+function Frequency2(str){
+    let a=[];
+    for(let i of str.split('')){
+        if(a.hasOwnProperty(i)){
+            a[i]++;
+        }
+        else{
+            a[i]=1;
+        }
+    }
+    return a;
+}
+console.log(Frequency2(str));
